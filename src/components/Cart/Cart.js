@@ -30,7 +30,7 @@ const Cart = () =>{
           progress: undefined,
           theme: "colored"
       });
-      setTimeout(()=> navigate("/"), 2500);
+      setTimeout(()=> navigate("/"), 2600);
       }
     } 
 
@@ -44,7 +44,7 @@ const Cart = () =>{
           <h2 className="cart-title">🛒 Shopping Cart</h2>
     
           {totalItems === 0 ? (
-            <p className="empty-cart">Your cart is empty...</p>
+            <p className="empty-cart">Your cart is empty.</p>
           ) : (
             <div className="cart-content">
               {/* Cart Items List */}

@@ -23,7 +23,6 @@ lerna-debug.log*
 .astro/
 
 # Editor directories and settings
-.vscode/
 .idea/
 .DS_Store
 *.swp
@@ -32,3 +31,7 @@ lerna-debug.log*
 *.sublime-workspace
 
 # Environme
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
